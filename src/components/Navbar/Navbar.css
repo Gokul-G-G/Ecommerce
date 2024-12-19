@@ -1,0 +1,28 @@
+.container{
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    position: fixed;
+}
+.left h2{
+    padding: 15px 10px;
+    color:#F34C24;
+}
+.right ul{
+    display: flex;
+    width: 50vw;
+    justify-content: space-around;
+}
+.right ul li{
+    list-style-type: none;
+    padding: 15px 10px;
+}
+.right ul li .link{
+    text-decoration: none;
+    color: black;
+}
+.right ul li .link:hover{
+    color: #F34C24;
+}

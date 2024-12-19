@@ -1,0 +1,16 @@
+.banner{
+    height: 90vh;
+    background-image: url("../../assets/images/shopping-bag-cart.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+   background-position: top,left;
+}
+h1{
+    padding-top: 250px;
+    padding-left: 90px;
+}
+@media screen and (max-width: 800px){
+    h1{
+        max-width: 300px;
+    }
+}
