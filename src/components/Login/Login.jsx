@@ -10,12 +10,12 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // if (email === "test11@gmail.com" && password === "pass123") {
+    if (email === "test11@gmail.com" && password === "pass123") {
     navigate("/products");
-    // } else {
-    //   setError("Invalid credentials!");
-    //   alert(error)
-    // }
+    } else {
+      setError("Invalid credentials!");
+      alert(error)
+    }
   };
   return (
     <div className="form-container">
