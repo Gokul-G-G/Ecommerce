@@ -5,6 +5,7 @@
     justify-content: space-between;
     background-color: transparent;
     position: fixed;
+    background-color: white;
 }
 .left h2{
     padding: 15px 10px;
